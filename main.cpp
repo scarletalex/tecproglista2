@@ -1,18 +1,27 @@
 #include <iostream>
-
-#include "questao1.h"
+#include "questao2.h"
 
 using namespace std;
 
 int main(){
-  
 
-    Aluno aluno;
+    int mes=0, dia=0, ano=0;
 
-    aluno.coletaAluno();
+    cout<<"Data escolhida"<<endl;
 
-    aluno.mostrarAluno();
+    cout<<"Digite o dia:"<<endl;
+    cin>>dia;
+
+    cout<<"Digite o mês:"<<endl;
+    cin>>mes;
+
+    cout<<"Digite o ano:"<<endl;
+    cin>>ano;
     
+    Data data(dia,mes,ano);
+ 
+    data.motrarDados();
 
-return 0;
+
+    return 0;
 }
