@@ -13,8 +13,7 @@ int main(){
     cout<<"Digite seu saldo inicial:";
     cin>>si;
 
-    Conta1 Conta(si);
-    Conta2 Conta(si);
+    Conta Conta(si);
 
 
     cout<<"Cliente 1:";
