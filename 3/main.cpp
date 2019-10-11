@@ -7,20 +7,22 @@ int main(){
     Conta Conta1;
     Conta Conta2;
 
+    float saldo1;
+    float saldo2;
+cout << "informe o saldo da conta1: ";
+cin >> saldo1;
 
-    float si=0;
-    
-    cout<<"Digite seu saldo inicial:";
-    cin>>si;
-
-    Conta Conta(si);
-
+Conta conta1(saldo1);
 
     cout<<"Cliente 1:";
   
     Conta1.fazerDeposito();
     Conta1.fazerSaque();
     Conta1.mostrarSaldo();
+
+cout << "informe o saldo da conta 2: ";
+cin >> saldo2;
+Conta conta2(saldo2);
 
     cout<<"Cliente 2:";
 
